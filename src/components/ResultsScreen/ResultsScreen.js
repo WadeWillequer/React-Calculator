@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './ResultsScreen.css'
+import './ResultsScreen.css';
 
 class ResultsScreen extends Component {
     render() {
