@@ -1,12 +1,23 @@
 import React, { Component } from 'react';
 import './Button.css';
 
-class ResultsScreen extends Component {
+class Button extends Component {
+    static defaultProps = {
+        type: ''
+    };
+
     render() {
+
+        let classes = 'Button';
+
+        if (this.props.type !== '') {
+            classes += ' Button-' + this.props.type
+        }
+
         return (
-            <div className='Button'>
+            <button className={classes}>
                 {this.props.children}
-            </div>
+            </button>
         );
     }
 }
