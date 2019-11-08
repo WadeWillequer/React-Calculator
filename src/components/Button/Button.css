@@ -9,7 +9,7 @@
 }
 
 .Button:hover {
-    background-color: darkblue;
+    background-color: rgb(103, 2, 153);
     color:white;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .Button-primary {
-    color: rebeccapurple;
+    color: rgb(131, 26, 223);
 }
 
 .Button-operator {
@@ -27,6 +27,6 @@
 
 .Button-large {
     color:white;
-    background-color: red;
+    background-color: purple;
     width: 50%
 }
