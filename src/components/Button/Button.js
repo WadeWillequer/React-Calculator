@@ -11,11 +11,11 @@ class Button extends Component {
         let classes = 'Button';
 
         if (this.props.type !== '') {
-            classes += ' Button-' + this.props.type
+            classes += ' Button-' + this.props.type;
         }
 
         return (
-            <button className={classes}>
+            <button className={classes} onClick={this.props.onButtonPress}>
                 {this.props.children}
             </button>
         );
